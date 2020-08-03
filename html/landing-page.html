@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titulo e logo na aba -->
+    <title>Hommy</title>
+    <link rel="shortcut icon" href="../logos/logo-hommy.ico">
+
+    <!-- Importando arquivo css e fontes -->
+    <link type="text/css" rel="stylesheet" href="../css/landing-page.css">
+    <link type="text/css" rel="stylesheet" href="../css/responsive.css">
+    <link type="text/css" rel="stylesheet" href="../css/wave.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header do site -->
+    <header>
+        <div class="formatacao">
+            <!-- Barra de navegação -->
+            <nav>
+                <img class="logo-nav" src="../logos/logo-completa-hommy---escuro.png" alt="Logotipo">
+                <div class="botoes-nav">
+                    <a class="botao-nav" href="#sobre">SOBRE</a>
+                    <a id="botao-contato" class="botao-nav" href="#contato">CONTATO</a>
+                </div>
+            </nav>
+
+            <!-- Frases introdutórias e botão -->
+            <div class="inicio">
+                <h1 id="slogan" class="titulo">
+                    A conexão certa para você se sentir em casa
+                </h1>
+                
+                <h2 id="frase-de-efeito" class="titulo"> 
+                    Não importa se você procura um cantinho só seu ou se quer alugar seu imóvel, o Hommy é sua melhor solução para reinventar seu conceito de casa.
+                </h2>
+                
+                <a id="botao-baixar" class="botao-baixar" href="#baixar">Baixar agora</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção sobre o app -->
+    <section id="sobre">
+        <div class="sobre formatacao">
+            <img class="imagens-sobre espaco" src="../assets/hands-and-house-2.png" alt="Mãos segurando uma casa">
+            
+            <div class="texto espaco">
+                <h3>
+                    Praticidade para <strong>todos</strong>
+                </h3>
+                <p>
+                    O Hommy te conecta com as melhores repúblicas. Seja em um estado, cidade ou bairro, você consegue ir mais longe para achar o seu lar perfeito, sem sair do seu conforto. Além disso, se estiver andando pelo bairro dos seus sonhos, você pode ver quais são as repúblicas mais próximas de sua localização. E para o você que tem uma república mas não tem para quem alugar, nós te conectamos com as melhores propostas e os melhores clientes, e tudo isso DE GRAÇA.
+                </p>
+            </div>
+        </div>
+
+        <div id="sobre2" class="sobre formatacao"> 
+            <div class="texto espaco">
+                <h3>
+                    <strong>Zero</strong> complicações
+                </h3>
+                <p>
+                    Com o nosso app, você sabe de cara todos os custos envolvidos para alugar ou anunciar sua república, tudo com transparência e sem letras miúdas. Você poderá agendar visitas online, fechar contratos na hora e direto com o proprietário, tudo isso de forma rápida, sem fiador, depósito caução ou imensas filas de cartório.
+                </p>
+            </div>
+
+            <img class="imagens-sobre espaco" src="../assets/puzzle.png" alt="Quebra-cabeça com uma engrenagem e um 'check' no meio da engrenagem">
+        </div>
+        <div id="waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        </div>
+    </section>
+
+    <!-- Seção para baixar o app -->
+    <section id="baixar"> 
+        <div id="download" class="sobre formatacao">
+        
+            <img class="mockup" src="../assets/app-hommy.gif" alt="Mockup app Hommy">
+            
+            <div class="texto">
+                <!-- Call to Action -->
+                <h3>
+                    <strong>E aí, </strong> vamos reinventar seu conceito de casa? 
+                </h3>
+
+                <div class="download">
+                    <!-- Opções de Download -->
+                    <a id="android" class="botao-baixar" href="">
+                        Baixar para Android 
+                    </a>
+
+                    <a id="ios" class="botao-baixar" href="">
+                        Baixar para iOS
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+
+    </section>            
+    
+    <!-- Form de contato -->
+    <section id="contato">
+        <div class='contato formatacao'>
+            <h2 class="titulo">
+                Contato
+            </h2>
+            <p>
+                Dúvidas, críticas ou sugestões? Fale conosco, entraremos em contato o mais breve possível.
+            </p>
+            <div id="form">
+
+                <form>
+                    <label>
+                        Nome:
+                    </label>
+                    <input class="campos" type="text">
+
+                    <label>
+                        E-mail:
+                    </label>
+                    <input class="campos" type="text">
+
+                    <label>
+                        Mensagem:
+                    </label>
+                    <textarea class="campos" rows="10" cols="70"> Digite aqui sua mensagem :) </textarea>
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+
+                <img id="atendente" src="../assets/contato.png" alt="atendente de telemarketing">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer do Site -->
+    <footer>
+        <div class="formatacao footer">
+            <div class="info">
+                <img class="logo-footer" src="../logos/logo-completa-hommy---claro.png" alt="Logotipo">
+                
+                <p id = "autora">
+                    Designed by Nayara Gomes
+                </p>
+            </div>
+
+            <div class="rede-social">
+                <a href="https://www.facebook.com/">
+                    <img class="rede-social" src="../assets/facebook.png" alt="facebook">
+                </a>
+
+                <a href="https://www.instagram.com">
+                    <img class="rede-social" src="../assets/instagram.png" alt="instagram">
+                </a>
+
+                <a href="https://www.twitter.com">
+                    <img class="rede-social" src="../assets/twitter.png" alt="twitter">
+                </a>
+            </div>
+        </div>    
+    </footer>
+</body>
+
+</html>

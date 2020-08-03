@@ -1,0 +1,279 @@
+:root {
+    --azul-negro: #1a1e30;
+    --azul-escuro: #384269;
+    --azul-medio: #8088A7;
+    --azul-claro: #CAD8F1;
+    --verde: #78E282;
+    --rosa: #FF5480;
+    --amarelo: #F6BB42;
+    --cinza: #ebebeb;
+}
+/* Configurações mais gerais */
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.formatacao {
+    margin: 2vh 5vw;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--azul-negro);
+}
+
+/* Header do site */
+header {
+    margin: 0;
+    
+    background-image: url(../assets/header-hommy.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+    
+    height: 100vh;
+}
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo-nav {
+    height: 6vw;
+    min-height: 4vh;
+}
+
+.botao-nav {
+    padding: 0vh 2vw;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: var(--azul-escuro);
+}
+
+#botao-contato {
+    padding-right: 0vw;
+}
+/* Elementos centrais do header */
+#slogan {
+    margin: 10vh 20vw 5vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+}
+
+#frase-de-efeito {
+    margin: 4vh 22vw 9vh;
+    
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#botao-baixar {
+    padding: 1.5vh 4vw;
+    font-size: 1.5em;
+    
+}
+/* essa classe serve para todos botões de download */
+.botao-baixar {
+    border-radius: 30px;
+    background: var(--azul-escuro) ;
+
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Seções */
+section {
+    width: 98.75vw;
+}
+
+/* Sobre o app */
+.sobre {
+    margin: 7vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.espaco {
+    padding: 0vh 5vw;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--amarelo);
+}
+
+p {
+    font-size: 2.5vh;
+    color: var(--azul-negro);
+    text-align: center;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.imagens-sobre {
+    height: 30vh;
+}
+/* Baixar app */
+#baixar {
+    margin-bottom: 0vh;
+    background-color: var(--cinza);
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download a {
+    padding: 2vh 2vw;
+}
+
+#android {
+    background: var(--azul-medio);
+}
+
+#ios {
+    background: black;
+}
+
+.mockup {
+    width: 60%;
+}
+
+/* Seção de contato */
+#contato {
+    text-align: justify;
+}
+.contato {
+    margin-top: 0vh ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+}
+
+label {
+    margin-bottom: 1vh;
+    color: var(--rosa);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.campos {
+    margin-bottom: 3vh;
+    border-radius: 6px;
+    border: 1px solid var(--azul-medio);
+
+}
+
+#enviar {
+    height: 3vw;
+    width: 8vw;
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: var(--rosa);
+
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#atendente {
+    width: 40%;
+    margin-right: 0vw;
+}
+/* Seção footer */
+footer {
+    background-color: var(--azul-negro);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: white;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+#autora {
+    color: var(--azul-claro);
+}
+
+.logo-footer {
+    height: 7vh;
+}
+
+.rede-social {
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 1vh 1vw;
+    height: 4vh;
+}
+
+/* Ações do botão para mudar cor quando o cursor estiver em cima */
+.botao-nav:hover {
+    color: white;
+}
+
+.botao-baixar:hover {
+    background-color: var(--azul-claro);
+    color: var(--azul-negro);
+  }
+
+  .botao-baixar:hover {
+    background-color: var(--azul-claro);
+    color: var(--azul-negro);
+  }
+
+  #ios:hover{
+      background-color: white;
+  }
+
+  #enviar:hover {
+    background-color: var(--verde);
+  }
